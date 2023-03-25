@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #000;
+}
+
+canvas {
+	position: absolute;
+	display: block;
+	height: 50%;
+	transition: all 0.5s;
+}
+#cursor {
+  position : absolute;
+  z-index: 100;
+  width : 3%;
+}
+.hotbar {
+	width : 5%;
+	position : absolute;
+	top : 85%;
+	border : 1px solid white;
+	opacity : 0.8;
+}
+#slot1 {
+	left : 27.5%;
+}
+#slot2 {
+	left : 32.5%;
+}
+#slot3 {
+	left : 37.5%;
+}
+#slot4 {
+	left : 42.5%;
+}
+#slot5 {
+	left : 47.5%;
+}
+#slot6 {
+	left : 52.5%;
+}
+#slot7 {
+	left : 57.5%;
+}
+#slot8 {
+	left : 62.5%;
+}
+#slot9 {
+	left : 67.5%;
+}
+#gameScreenGUI {
+	display : none;
+}
